@@ -53,7 +53,7 @@ Other than plugins, we can also use the default email notifier. For using this o
 3. Go to the Default Email section and fill in the details as shown below. <br> ![](https://github.com/akshayavb99/git-jenkins/blob/master/email_install5.jpg?raw=true)<br>
 
 Before sending emails, we still need to configure two more things.
-1. We need to modify the `/etc/sysconfig/jenkins` file to allow the SSL protocol to work correctly. For this, we open the file using `gedit /etc/sysconfig/jenkins` and modify the `JENKINS_JAVA_OPTIONS` as follows. <br> ![](https://github.com/akshayavb99/git-jenkins/blob/master/email_install6.jpg?raw=true)<br>
+1. We need to modify the `/etc/sysconfig/jenkins` file to allow the SSL protocol to work correctly. For this, we open the file using `gedit /etc/sysconfig/jenkins` and modify the `JENKINS_JAVA_OPTIONS` as follows. <br><br> ![](https://github.com/akshayavb99/git-jenkins/blob/master/email_install6.jpg?raw=true)<br>
 2. We also need to enable `Less Secure Apps access` if the email ID to which the emails are sent are hosted on GMail. 
 
 After finishing these configurations, we can send a test email to see if it works.

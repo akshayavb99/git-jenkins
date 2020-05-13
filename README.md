@@ -41,8 +41,13 @@ When the container is launched, Jenkins is automatically started, and the initia
 
 #### Part 4 - If the code does not work, then send an email to the developer
 
-Sending emails is a default function in Jenkins, which can be enabled by the installation of some plugins. The steps to install the plugins are:
-1. Go to Manage Jenkins<br> ![](https://github.com/akshayavb99/git-jenkins/blob/master/dockerfile_content.jpg?raw=true)
-2. Select Configure Plugins
+Sending emails can be done in two ways one of which is enabled by the installation of some plugins. The steps to install the plugins are:
+1. Go to Manage Jenkins<br> ![](https://github.com/akshayavb99/git-jenkins/blob/master/email_install1.jpg?raw=true)<br>
+2. Select Configure Plugins<br> ![](https://github.com/akshayavb99/git-jenkins/blob/master/email_install2.jpg?raw=true)<br>
 3. Select Available. 
-4. Select **Email Extension Plugin** and **Email Template Extension Plugin**
+4. Select **Email Extension Plugin** and **Email Template Extension Plugin**<br> ![](https://github.com/akshayavb99/git-jenkins/blob/master/email_install3.jpg?raw=true)<br>
+
+Other than plugins, we can also use the default email notifier. For using this option, the steps are as follows:
+1. Go to Manage Jenkins<br> ![](https://github.com/akshayavb99/git-jenkins/blob/master/email_install1.jpg?raw=true)<br>
+2. Select Configure System <br> ![](https://github.com/akshayavb99/git-jenkins/blob/master/email_install4.jpg?raw=true)<br>
+3. Go to the Default Email section and fill in the details as shown below. <br> ![](https://github.com/akshayavb99/git-jenkins/blob/master/email_install5.jpg?raw=true)<br>
